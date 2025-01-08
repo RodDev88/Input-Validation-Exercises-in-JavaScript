@@ -2,6 +2,16 @@
 //TIPOS DE VALIDACIONES
 //*************************************************
 
+/* 6.NUMERIC RANGE
+document.getElementById("validate-range").addEventListener("click", () => {
+  const edad = document.getElementById("edad").value.trim();
+  if (edad < 18 || edad > 100) {
+    alert("La edad debe estar entre 18 y 100.");
+  } else {
+    alert("Edad válida.");
+  }
+}); */
+
 /* 5.NUMBER VALIDATION
 document.getElementById("enviar").addEventListener("click", () => {
   const numero = document.getElementById("numero").value.trim();
